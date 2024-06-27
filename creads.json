@@ -1,0 +1,14 @@
+
+{
+  "type": "service_account",
+  "project_id": "migrar-para-skymail-416620",
+  "private_key_id": "e65c51013cb4d384a66890b6f0e1e388f805acfd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDHfaDQjcfWWSLo\nW7DCoPa2VL5k31sFspZg3LCknKNf6EZLKOqm4bepinG+WCH8F1a/jc40Y9YO4BzN\nig4/66pB1ciZXIV9zkskLKJyYAz6k8LW75WCVP9Q6Vpi5XG2Yj8au0lKQO7+Mfty\nWAr1ScHQCLECOisZkCpEFKbW94BvrzNKpjBYrL30dm4T/ZTb11w5x3AMtavk13SE\nF1utlm+M7EZPd4dGmRFqxC8Oif+cgO6XbfMmBQc0RdGnruYzFlc/v85l87s7Rq+7\nyTYT9dXmenLej7w7Q3DfD25xtZU29Ew4cW0rGuP61qzo/LBXmqPSzFDCu3AhQ51S\n3qWySI8bAgMBAAECggEAGbZQhvDvQ+pjPG2s/7j9c4zCqX+8XKSjC0MGpYDm8dKf\nVMqmS/Il2P1WIcF8R+C+NpxRaqE/ktVCAR/9LDH01N14KIQrVIbFWplCKtnEcnuf\nDlL9AzpvWf9pvftyx54sIgbnsGFkLHFGxnsglnL2PxkPr4jNy1Kwj+vVgTmPXVWO\nVPIXk2IHc/J//uFErRlImf9+/mJDuo3ts50Iy8eSdWgalC0lvlZqmgWLsxoph4rN\nWatKd1Cdckz8Wr7ZHwVCpKgyNRDa38RXgbdkd2W6w3MGWJ58GZEjgFBx2fhT6H9/\nYn7R+Va4ieMggUTHa0Y7qWQYgM7zp2TYiykmb41m4QKBgQDlVofTL/NHI69LYEsM\nfYV91/C4sfVZhDJJnGDLmApdItnmcDKz05XXg0pkhI69Pnn4R85w7zDtJ6WfCMKe\nkjJ2b89mAOyovVPy+AcrqErWywbgAHHo9/ITVoJm8bSoOSOuCzcMpP7/hE+kXbF6\nI6wv5OZLcJNoAdipbbH7D2CzqwKBgQDerstmHY2lTn28En0OEfLGjXowvHO0B+r0\nuxRZcm0AHBsp8rvnMcm0wQMecDmccpCl+/UXJyCSlM+ETiZSLd1u3KR2qT71nwlW\nemOCQmJoRAnXEX3I1f6gUMIPlE259dy+e9ZSF9UZknMzckB+HmyfCWTbcKlORaZL\ngu4BM3kiUQKBgCQu9tcXJab/tlSKKM0bsMgeHdjGGxO4i8aZaZw1rMztBrwYz6cX\npviNulsJnwu0o8HMcoHW+z0vmC3zT+F854FQOsS5OJ2W4XvgLiFxN/2Tos4Mw+wh\n0ovChmh/kiVIfpyjIFhaX/Eoivg/4BSJNE2KK9uTM26he/GfYQlfb75pAoGAV6ul\ntLxp6e0vH35/8awrUvScaNepDfYYEOYequCb/XETWL6SMAGwEhPzcGZqqCeKv26l\nHcpvzoX79XD3MV+RUHZZ4cXcXcORX5Sr3LraF4bCAQSH6ywlJWTmIlAXEeG0WOJU\njNmJMpov9M9EiOLdjPeb17FRVtmhERWpMpvbUyECgYB3GeqRFdW3nq7vX66jQnWv\nhoNLumb8NaPFsNmD7RORJT+hnrs60Vvvqi5YBkJwfso7/xvrfpkJf33mkTu3KhDZ\nWRHH+xShWvFEJVhmyIbv7mXAfMYiUaqkh4MDbuQoyKkIlRGy/3m0U4ZC8/jzlen6\nx9mJ1lLVppd7GgeTlC8AtQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "paulo-gspreads@migrar-para-skymail-416620.iam.gserviceaccount.com",
+  "client_id": "100273719310311376650",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/paulo-gspreads%40migrar-para-skymail-416620.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
