@@ -61,7 +61,7 @@ def agoraAt(aba):
     agora = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     aba.update_cell(1,4, f"{agora}")
 
-bd = 'LPB'
+bd = 'SOMIDIA'
 conn = conectsql(bd)
 sqlDF = consul(conn)
 aba = login()
