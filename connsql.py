@@ -24,25 +24,23 @@ def conectsql(bd):
     return conn
 
 def consul(conn): 
+    df = pd.DataFrame()  # Inicializa df como um DataFrame vazio
     try:
-        # Define a consulta SQL
-        sql_query = "SELECT * FROM CLIENTES"
-        # Cria um novo cursor
+        sql_query = "SELECT notasv.letra, notasv.idnota, notasv.emissao, notasv.idcliente, Clientes.nmcliente, Clientes.CNPJ_cpf_fat, notasv.idpedido, notasv.idvendedor, notasv.totalnota FROM notasv JOIN Clientes ON notasv.idcliente = Clientes.idcliente ORDER BY notasv.idnota;"
         cursor = conn.cursor()
-        # Executa a consulta SQL
         cursor.execute(sql_query)
-        # Busca todas as linhas
         rows = cursor.fetchall()
-        # Obtém os nomes das colunas da descrição do cursor
-        columns = [column[0] for column in cursor.description]
-        # Cria um DataFrame a partir das linhas e nomes das colunas
-        df = pd.DataFrame.from_records(rows, columns=columns)
-        # Fecha a conexão
-        conn.close()
-        return df
+        if rows:
+            rows = [list(row) for row in rows]
+            columns = [column[0] for column in cursor.description]
+            df = pd.DataFrame(rows, columns=columns)
     except Exception as e:
         print(f"Erro ao consultar dados: {e}")
-        return None
+    finally:
+        # Fecha a conexão
+        conn.close()
+        
+    return df
 
 def login():
     gc = gspread.service_account(filename='creads.json')
@@ -61,7 +59,7 @@ def agoraAt(aba):
     agora = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     aba.update_cell(1,4, f"{agora}")
 
-bd = 'SOMIDIA'
+bd = 'MACRO'
 conn = conectsql(bd)
 sqlDF = consul(conn)
 aba = login()
