@@ -1,10 +1,12 @@
+ 
+
 import pyodbc
 import pandas as pd
 import gspread
 import datetime
 from gspread_dataframe import  set_with_dataframe
 
-def conectsql(bd):
+def conectsql(bd):#classe BDados0
     # Define the server, database, username, and password
     SERVER = '787307cf6469.sn.mynetname.net,6335'
     USERNAME = 'lpbacesso'
@@ -42,30 +44,34 @@ def consul(conn):
         
     return df
 
-def login():
+def login(key, worksheet):
     gc = gspread.service_account(filename='creads.json')
-    sheet = gc.open_by_key('10tm5JnXLvNvtjNFjXmQMtDObeDVbzYCSuO-exQtCSMs')
-    aba = sheet.worksheet('testeconn')
+    sheet = gc.open_by_key([key])
+    aba = sheet.worksheet([worksheet])
     print("Login google sheets")
     return aba
 
-def escreverDfGoogleSheets(df, aba):
-    intervalo = "A2:Z"
+def escreverDfGoogleSheets(df, aba, intervalo,interow):
     aba.batch_clear([intervalo])
-    set_with_dataframe(aba,df,row=2)
+    set_with_dataframe(aba,df,row=[interow])
     print("Dados gravados com sucesso no Google Sheets!")
 
 def agoraAt(aba):
     agora = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     aba.update_cell(1,4, f"{agora}")
 
-bd = 'Somidia'
+
+
+
+bd = 'SOMIDIA'
+intervalo = "A2:Z"
+interow = 2
+key = '10tm5JnXLvNvtjNFjXmQMtDObeDVbzYCSuO-exQtCSMs'
+worksheet = 'testeconn'
+
+>>>>>>> orientadoaobjeto
 conn = conectsql(bd)
 sqlDF = consul(conn)
-aba = login()
-escreverDfGoogleSheets(sqlDF, aba)
+aba = login(key, worksheet)
+escreverDfGoogleSheets(sqlDF, aba, intervalo)
 agoraAt(aba)
-
-
-
-
