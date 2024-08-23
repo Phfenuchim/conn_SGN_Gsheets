@@ -26,8 +26,15 @@ def conectsql(bd):
 def consul(conn): 
     try:
         # Define a consulta SQL
-        sql_query ="SELECT notasv.letra, notasv.idnota, notasv.emissao, notasv.idcliente, Clientes.nmcliente, Clientes.CNPJ_cpf_fat, notasv.idpedido, notasv.idvendedor, notasv.totalnota FROM notasv JOIN Clientes ON notasv.idcliente = Clientes.idcliente ORDER BY notasv.idnota;"
-        # Cria um novo cursor
+        sql_query ='''SELECT
+            nfe.LETRA,
+            nfe.IDNOTA,
+            nfe.XML_NFE.value('declare namespace ns="http://www.portalfiscal.inf.br/nfe"; (/ns:NFe/ns:infNFe/ns:cobr/ns:fat/ns:vOrig)[1]', 'decimal(18,2)') AS total_NotaF,
+            nfe.XML_NFE
+            FROM
+            NFE;
+        '''
+         # Cria um novo cursor
         cursor = conn.cursor()
         # Executa a consulta SQL
         cursor.execute(sql_query)
@@ -38,6 +45,7 @@ def consul(conn):
         # Cria um DataFrame a partir das linhas e nomes das colunas
         df = pd.DataFrame.from_records(rows, columns=columns)
         # Fecha a conexão
+        print("query feita")
         conn.close()
         return df
     except Exception as e:
