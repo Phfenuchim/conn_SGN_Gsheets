@@ -26,8 +26,15 @@ def conectsql(bd):
 def consul(conn): 
     try:
         # Define a consulta SQL
-        sql_query = "SELECT * FROM CLIENTES"
-        # Cria um novo cursor
+        sql_query ='''SELECT
+            nfe.LETRA,
+            nfe.IDNOTA,
+            nfe.XML_NFE.value('declare namespace ns="http://www.portalfiscal.inf.br/nfe"; (/ns:NFe/ns:infNFe/ns:cobr/ns:fat/ns:vOrig)[1]', 'decimal(18,2)') AS total_NotaF,
+            nfe.XML_NFE
+            FROM
+            NFE;
+        '''
+         # Cria um novo cursor
         cursor = conn.cursor()
         # Executa a consulta SQL
         cursor.execute(sql_query)
@@ -38,6 +45,7 @@ def consul(conn):
         # Cria um DataFrame a partir das linhas e nomes das colunas
         df = pd.DataFrame.from_records(rows, columns=columns)
         # Fecha a conexão
+        print("query feita")
         conn.close()
         return df
     except Exception as e:
@@ -52,7 +60,7 @@ def login():
     return aba
 
 def escreverDfGoogleSheets(df, aba):
-    intervalo = "A2:Z"
+    intervalo = "A2:AA"
     aba.batch_clear([intervalo])
     set_with_dataframe(aba,df,row=2)
     print("Dados gravados com sucesso no Google Sheets!")
