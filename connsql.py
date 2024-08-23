@@ -26,7 +26,7 @@ def conectsql(bd):
 def consul(conn): 
     try:
         # Define a consulta SQL
-        sql_query = "SELECT * FROM CLIENTES"
+        sql_query ="SELECT notasv.letra, notasv.idnota, notasv.emissao, notasv.idcliente, Clientes.nmcliente, Clientes.CNPJ_cpf_fat, notasv.idpedido, notasv.idvendedor, notasv.totalnota FROM notasv JOIN Clientes ON notasv.idcliente = Clientes.idcliente ORDER BY notasv.idnota;"
         # Cria um novo cursor
         cursor = conn.cursor()
         # Executa a consulta SQL
@@ -52,7 +52,7 @@ def login():
     return aba
 
 def escreverDfGoogleSheets(df, aba):
-    intervalo = "A2:Z"
+    intervalo = "A2:AA"
     aba.batch_clear([intervalo])
     set_with_dataframe(aba,df,row=2)
     print("Dados gravados com sucesso no Google Sheets!")

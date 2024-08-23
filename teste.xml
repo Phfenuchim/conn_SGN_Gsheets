@@ -1,0 +1,382 @@
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+  <infNFe Id="NFe35191134263639000181550010000000011691663974" versao="4.00">
+    <ide>
+      <cUF>35</cUF>
+      <cNF>69166397</cNF>
+      <natOp>VENDA PROD.NAO SAO SUB.TRIB SP</natOp>
+      <mod>55</mod>
+      <serie>1</serie>
+      <nNF>1</nNF>
+      <dhEmi>2019-11-11T17:04:54-03:00</dhEmi>
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>3550308</cMunFG>
+      <tpImp>1</tpImp>
+      <tpEmis>1</tpEmis>
+      <cDV>4</cDV>
+      <tpAmb>1</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>0</indFinal>
+      <indPres>3</indPres>
+      <procEmi>0</procEmi>
+      <verProc>1.0</verProc>
+    </ide>
+    <emit>
+      <CNPJ>34263639000181</CNPJ>
+      <xNome>LPB COMERCIO E SERVICOS DE INFORMATICA EIRELI</xNome>
+      <xFant>LPB</xFant>
+      <enderEmit>
+        <xLgr>AVENIDA FAGUNDES FILHO</xLgr>
+        <nro>134</nro>
+        <xCpl>CJ 82</xCpl>
+        <xBairro>VILA MONTE ALEGRE</xBairro>
+        <cMun>3550308</cMun>
+        <xMun>SAO PAULO</xMun>
+        <UF>SP</UF>
+        <CEP>04304000</CEP>
+        <cPais>1058</cPais>
+        <xPais>BRASIL</xPais>
+        <fone>1135737444</fone>
+      </enderEmit>
+      <IE>126421166114</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest>
+      <CNPJ>26318560000182</CNPJ>
+      <xNome>TOP SELLER COMERCIO E SERVICOS DE INFO  EIRELI</xNome>
+      <enderDest>
+        <xLgr>AVENIDA FAGUNDES FILHO</xLgr>
+        <nro>134</nro>
+        <xCpl>CJ 52</xCpl>
+        <xBairro>VILA MONTE ALEGRE</xBairro>
+        <cMun>3550308</cMun>
+        <xMun>SAO PAULO</xMun>
+        <UF>SP</UF>
+        <CEP>04304000</CEP>
+        <cPais>1058</cPais>
+        <xPais>BRASIL</xPais>
+        <fone>1126592125</fone>
+      </enderDest>
+      <indIEDest>1</indIEDest>
+      <IE>141332649117</IE>
+    </dest>
+    <det nItem="1">
+      <prod>
+        <cProd>310068</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>SSD SA400S37/120G KINGSTON 120GB A400 2.5POL SATA III BLISTE</xProd>
+        <NCM>85235190</NCM>
+        <CFOP>5102</CFOP>
+        <uCom>UN</uCom>
+        <qCom>50.0000</qCom>
+        <vUnCom>117.0000</vUnCom>
+        <vProd>5850.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>50.0000</qTrib>
+        <vUnTrib>117.0000</vUnTrib>
+        <indTot>1</indTot>
+      </prod>
+      <imposto>
+        <vTotTrib>3312.85</vTotTrib>
+        <ICMS>
+          <ICMSSN101>
+            <orig>7</orig>
+            <CSOSN>101</CSOSN>
+            <pCredSN>0.00</pCredSN>
+            <vCredICMSSN>0.00</vCredICMSSN>
+          </ICMSSN101>
+        </ICMS>
+        <PIS>
+          <PISOutr>
+            <CST>99</CST>
+            <qBCProd>0.0000</qBCProd>
+            <vAliqProd>0.0000</vAliqProd>
+            <vPIS>0.00</vPIS>
+          </PISOutr>
+        </PIS>
+        <COFINS>
+          <COFINSOutr>
+            <CST>99</CST>
+            <qBCProd>0.0000</qBCProd>
+            <vAliqProd>0.0000</vAliqProd>
+            <vCOFINS>0.00</vCOFINS>
+          </COFINSOutr>
+        </COFINS>
+      </imposto>
+    </det>
+    <det nItem="2">
+      <prod>
+        <cProd>310091</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>MEMORIA KVR16LS11/4 4GB DDR3 1600 MHZ KINGSTON MEM NOTEBOO</xProd>
+        <NCM>84733042</NCM>
+        <CEST>2103500</CEST>
+        <CFOP>5405</CFOP>
+        <uCom>UN</uCom>
+        <qCom>35.0000</qCom>
+        <vUnCom>125.5000</vUnCom>
+        <vProd>4392.50</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>35.0000</qTrib>
+        <vUnTrib>125.5000</vUnTrib>
+        <indTot>1</indTot>
+      </prod>
+      <imposto>
+        <vTotTrib>1232.97</vTotTrib>
+        <ICMS>
+          <ICMSSN500>
+            <orig>7</orig>
+            <CSOSN>500</CSOSN>
+            <vBCSTRet>0.00</vBCSTRet>
+            <pST>0.00</pST>
+            <vICMSSubstituto>0.00</vICMSSubstituto>
+            <vICMSSTRet>0.00</vICMSSTRet>
+          </ICMSSN500>
+        </ICMS>
+        <PIS>
+          <PISOutr>
+            <CST>99</CST>
+            <qBCProd>0.0000</qBCProd>
+            <vAliqProd>0.0000</vAliqProd>
+            <vPIS>0.00</vPIS>
+          </PISOutr>
+        </PIS>
+        <COFINS>
+          <COFINSOutr>
+            <CST>99</CST>
+            <qBCProd>0.0000</qBCProd>
+            <vAliqProd>0.0000</vAliqProd>
+            <vCOFINS>0.00</vCOFINS>
+          </COFINSOutr>
+        </COFINS>
+      </imposto>
+    </det>
+    <det nItem="3">
+      <prod>
+        <cProd>390019</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>HD ST1000NM0055 SEAGATE 1TB SATA 3,5" ENTERP 3.5 7200RPM</xProd>
+        <NCM>84717012</NCM>
+        <CFOP>5405</CFOP>
+        <uCom>UN</uCom>
+        <qCom>12.0000</qCom>
+        <vUnCom>401.0000</vUnCom>
+        <vProd>4812.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>12.0000</qTrib>
+        <vUnTrib>401.0000</vUnTrib>
+        <indTot>1</indTot>
+      </prod>
+      <imposto>
+        <vTotTrib>1397.40</vTotTrib>
+        <ICMS>
+          <ICMSSN500>
+            <orig>2</orig>
+            <CSOSN>500</CSOSN>
+            <vBCSTRet>0.00</vBCSTRet>
+            <pST>0.00</pST>
+            <vICMSSubstituto>0.00</vICMSSubstituto>
+            <vICMSSTRet>0.00</vICMSSTRet>
+          </ICMSSN500>
+        </ICMS>
+        <PIS>
+          <PISOutr>
+            <CST>99</CST>
+            <qBCProd>0.0000</qBCProd>
+            <vAliqProd>0.0000</vAliqProd>
+            <vPIS>0.00</vPIS>
+          </PISOutr>
+        </PIS>
+        <COFINS>
+          <COFINSOutr>
+            <CST>99</CST>
+            <qBCProd>0.0000</qBCProd>
+            <vAliqProd>0.0000</vAliqProd>
+            <vCOFINS>0.00</vCOFINS>
+          </COFINSOutr>
+        </COFINS>
+      </imposto>
+    </det>
+    <det nItem="4">
+      <prod>
+        <cProd>390043</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>HD WD20PURX WD 2TB PURPLE SATA</xProd>
+        <NCM>84717012</NCM>
+        <CEST>2103300</CEST>
+        <CFOP>5405</CFOP>
+        <uCom>UN</uCom>
+        <qCom>20.0000</qCom>
+        <vUnCom>384.0000</vUnCom>
+        <vProd>7680.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>20.0000</qTrib>
+        <vUnTrib>384.0000</vUnTrib>
+        <indTot>1</indTot>
+      </prod>
+      <imposto>
+        <vTotTrib>2230.27</vTotTrib>
+        <ICMS>
+          <ICMSSN500>
+            <orig>7</orig>
+            <CSOSN>500</CSOSN>
+            <vBCSTRet>0.00</vBCSTRet>
+            <pST>0.00</pST>
+            <vICMSSubstituto>0.00</vICMSSubstituto>
+            <vICMSSTRet>0.00</vICMSSTRet>
+          </ICMSSN500>
+        </ICMS>
+        <PIS>
+          <PISOutr>
+            <CST>99</CST>
+            <qBCProd>0.0000</qBCProd>
+            <vAliqProd>0.0000</vAliqProd>
+            <vPIS>0.00</vPIS>
+          </PISOutr>
+        </PIS>
+        <COFINS>
+          <COFINSOutr>
+            <CST>99</CST>
+            <qBCProd>0.0000</qBCProd>
+            <vAliqProd>0.0000</vAliqProd>
+            <vCOFINS>0.00</vCOFINS>
+          </COFINSOutr>
+        </COFINS>
+      </imposto>
+    </det>
+    <det nItem="5">
+      <prod>
+        <cProd>450002</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>MPXU2LL/A APPLE MACBOOK PRO 2.3 INTEL CORE DUAL 8GB 2133</xProd>
+        <NCM>84713019</NCM>
+        <CEST>2102800</CEST>
+        <CFOP>5405</CFOP>
+        <uCom>UN</uCom>
+        <qCom>1.0000</qCom>
+        <vUnCom>7510.0000</vUnCom>
+        <vProd>7510.00</vProd>
+        <cEANTrib>SEM GTIN</cEANTrib>
+        <uTrib>UN</uTrib>
+        <qTrib>1.0000</qTrib>
+        <vUnTrib>7510.0000</vUnTrib>
+        <indTot>1</indTot>
+      </prod>
+      <imposto>
+        <vTotTrib>1779.12</vTotTrib>
+        <ICMS>
+          <ICMSSN500>
+            <orig>7</orig>
+            <CSOSN>500</CSOSN>
+            <vBCSTRet>0.00</vBCSTRet>
+            <pST>0.00</pST>
+            <vICMSSubstituto>0.00</vICMSSubstituto>
+            <vICMSSTRet>0.00</vICMSSTRet>
+          </ICMSSN500>
+        </ICMS>
+        <PIS>
+          <PISOutr>
+            <CST>99</CST>
+            <qBCProd>0.0000</qBCProd>
+            <vAliqProd>0.0000</vAliqProd>
+            <vPIS>0.00</vPIS>
+          </PISOutr>
+        </PIS>
+        <COFINS>
+          <COFINSOutr>
+            <CST>99</CST>
+            <qBCProd>0.0000</qBCProd>
+            <vAliqProd>0.0000</vAliqProd>
+            <vCOFINS>0.00</vCOFINS>
+          </COFINSOutr>
+        </COFINS>
+      </imposto>
+    </det>
+    <total>
+      <ICMSTot>
+        <vBC>0.00</vBC>
+        <vICMS>0.00</vICMS>
+        <vICMSDeson>0.00</vICMSDeson>
+        <vFCP>0.00</vFCP>
+        <vBCST>0.00</vBCST>
+        <vST>0.00</vST>
+        <vFCPST>0.00</vFCPST>
+        <vFCPSTRet>0.00</vFCPSTRet>
+        <vProd>30244.50</vProd>
+        <vFrete>0.00</vFrete>
+        <vSeg>0.00</vSeg>
+        <vDesc>0.00</vDesc>
+        <vII>0.00</vII>
+        <vIPI>0.00</vIPI>
+        <vIPIDevol>0.00</vIPIDevol>
+        <vPIS>0.00</vPIS>
+        <vCOFINS>0.00</vCOFINS>
+        <vOutro>0.00</vOutro>
+        <vNF>30244.50</vNF>
+        <vTotTrib>9952.61</vTotTrib>
+      </ICMSTot>
+    </total>
+    <transp>
+      <modFrete>0</modFrete>
+      <transporta>
+        <CNPJ>07478913000167</CNPJ>
+        <xNome>NOSSO CARRO</xNome>
+        <IE>117180132116</IE>
+        <xEnder>RUA FAGUNDES FILHO 134 SL 81</xEnder>
+        <xMun>SAO PAULO</xMun>
+        <UF>SP</UF>
+      </transporta>
+      <vol>
+        <qVol>4</qVol>
+        <esp>Volumes</esp>
+        <pesoL>2.100</pesoL>
+      </vol>
+    </transp>
+    <cobr>
+      <fat>
+        <nFat>000000001</nFat>
+        <vOrig>30244.50</vOrig>
+        <vDesc>0.00</vDesc>
+        <vLiq>30244.50</vLiq>
+      </fat>
+      <dup>
+        <nDup>001</nDup>
+        <dVenc>2020-01-10</dVenc>
+        <vDup>30244.50</vDup>
+      </dup>
+    </cobr>
+    <pag>
+      <detPag>
+        <tPag>15</tPag>
+        <vPag>30244.50</vPag>
+      </detPag>
+    </pag>
+    <infAdic>
+      <infCpl>Documento emitido por ME ou EPP optante pelo simples nacional. Nao gera direito a credito fiscal de IPI.CONTATO: THAISE - RAMAL: OPERACAO SUJEITA A SUBST. TRIBUTARIA CONF. DECRETO 52804/2008 Oc.  - pedido: 000001 - vendedor: VE021 Valor Aprox. Tributos R$ 5.714,45 (18,89%) Federal e R$ 4.238,16 (14,01%) Estadual - Fonte: IBPT/FECOMERCIO SP Permite o aproveitamento do credito de ICMS no valor de R$ 0,00 correspondente a aliquota de 0% nos termos do art. 23 da LC 123/2006.</infCpl>
+    </infAdic>
+  </infNFe>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="#NFe35191134263639000181550010000000011691663974">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>Tgnto/ElWFGhWCZoI+p9jFyBASc=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>IIpNZJSsAA386s1Q4xPxk4/Ys3ymNfR+VFjv9rLXRzmWzRpVdgvzyCX+nHsrryllglya6DLw0b0BL7fsk9b+dOunSdpGy1ermJenYajLJ9024vq6uPDMTddNh15i6UDmjbdiwvB2v37BpRmjQ2nhkCim852hGc96ZHuYgnbGQdy8BjghFsUNiFRu7NOt7JHTv2XARP7oPIfUPTD2fUTVKG83TGOUOyeYU7XML77ZaYPfY5s4XPxl/csYVVOydn5bDxRcTM3ILfKbsIMCeUMBEgEozadDbQTAcUZ6lvEuTB4CSO/2m53rhdz+zGgMQJfYbeu36a3d8WrX2H/fNdIahg==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIIIAjCCBeqgAwIBAgIIY9K6n+tahR8wDQYJKoZIhvcNAQELBQAwdDELMAkGA1UEBhMCQlIxEzARBgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEYMBYGA1UEAxMPQUMgVkFMSUQgUkZCIHY1MB4XDTE5MDgwODIwMjYyMVoXDTIwMDgwNzIwMjYyMVowggEYMQswCQYDVQQGEwJCUjELMAkGA1UECBMCU1AxEjAQBgNVBAcTCVNBTyBQQVVMTzETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRYwFAYDVQQLEw1SRkIgZS1DTlBKIEExMSMwIQYDVQQLExpBUiBBIEEgQSBHU00gQ0VSVElGSUNBRE9SQTEXMBUGA1UECxMOMTk0MzM1MjQwMDAxMDIxRTBDBgNVBAMTPExQQiBDT01FUkNJTyBFIFNFUlZJQ09TIERFIElORk9STUFUSUNBIEVJUkVMSTozNDI2MzYzOTAwMDE4MTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMbnGVWWbhd5hSKn04CRHieLiULOeJGn/NSaWPbmaiATFR8gs3kws7Bg1YjvY40EfgRNHkN09/TkI5LQN0pjYaCptp+hiUKGrUpISxnd64Wfeg907JUbohkRkgHtuoakPgJfZ6A2LA1UpIAG/FyjQpcbjHlvJdeE18wT99sVTUwlJoOU889ub0ZGAj9ZMQ1ertF4oEws/PpZYvMl3coVCWOXcqvca5Pp+RVXez92kwZtSehh1YqsX2VJj5uOtAjzctOusrD/OlKV3QXfEUYO+u7oGUsmi58j0I7V4CPrKw5bnHv8sS49KDQoWpvRBf16rKhvbC4xV6XDelSCO/jQgbkCAwEAAaOCAvAwggLsMIGcBggrBgEFBQcBAQSBjzCBjDBVBggrBgEFBQcwAoZJaHR0cDovL2ljcC1icmFzaWwudmFsaWRjZXJ0aWZpY2Fkb3JhLmNvbS5ici9hYy12YWxpZHJmYi9hYy12YWxpZHJmYnY1LnA3YjAzBggrBgEFBQcwAYYnaHR0cDovL29jc3B2NS52YWxpZGNlcnRpZmljYWRvcmEuY29tLmJyMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUU8ul5HVQmUAsvlsVRcm+yzCqicUwcAYDVR0gBGkwZzBlBgZgTAECASUwWzBZBggrBgEFBQcCARZNaHR0cDovL2ljcC1icmFzaWwudmFsaWRjZXJ0aWZpY2Fkb3JhLmNvbS5ici9hYy12YWxpZHJmYi9kcGMtYWMtdmFsaWRyZmJ2NS5wZGYwgbYGA1UdHwSBrjCBqzBToFGgT4ZNaHR0cDovL2ljcC1icmFzaWwudmFsaWRjZXJ0aWZpY2Fkb3JhLmNvbS5ici9hYy12YWxpZHJmYi9sY3ItYWMtdmFsaWRyZmJ2NS5jcmwwVKBSoFCGTmh0dHA6Ly9pY3AtYnJhc2lsMi52YWxpZGNlcnRpZmljYWRvcmEuY29tLmJyL2FjLXZhbGlkcmZiL2xjci1hYy12YWxpZHJmYnY1LmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIHEBgNVHREEgbwwgbmBHmF0ZW5kaW1lbnRvLmFkbXNrbEBob3RtYWlsLmNvbaA4BgVgTAEDBKAvBC0xMTEwMTk0NjA0OTg1NTE5ODk4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDCgKQYFYEwBAwKgIAQeTFVJUyBQQVRSSUNJTyBCRUxBVU5ERSBNQUNVQURBoBkGBWBMAQMDoBAEDjM0MjYzNjM5MDAwMTgxoBcGBWBMAQMHoA4EDDAwMDAwMDAwMDAwMDANBgkqhkiG9w0BAQsFAAOCAgEAOn9qLAZd8h+rDt75hwBwRZzQh5SE7s4a3KKg1fBbF09GNspgy4pd5TfmdqxF06FTvPUK5z5jQy2t2z+rglCCaXXiQ2UwMq5VDpnKI/l5Y+KxiGfHT8PpSDOTdnq4olSQaCRauKoUUXIlJlnKu8mnHfeBpal6QEfKaeNt83DqIcicFiOAPsX2dSB/LykbJRpGi0ukscE+cJ5fNwDr/m0+TK5hoBcvyIfsIgoG8s+8wd8f3Byh4c8anh7yPmiWcS316zBU62Zo5++YspUJBm2lwztslmGTzXXp/1xsT8YupjHDuWy3j6R/bPrxVuw6iH0bJUppN7hHMD1DLh2FtIfMqLcbHZMuYG9OJAec/Uk2Ya5B4fa/3eoMs20dMjxiJjx/I9IsQRU6Oo9Yr52edQIq3u08njG2MRElF4vVmRSBy3Wq7IXr12GF3LTMYxjWfy19/16kzDs0wYDFF5mC4UTmuzhzo6vWJ5vF/t/O9gSRwp/6KBbvLQv0R4DC39Fk8p7TVKcUNVkDvlqI9WIFxg2GaRxRCWdo5ZeatBMMKpfVF4b+kHDkCHH1QR5sZozcGmXG72l4ApSqntIXiu5rnRBYUQBGeFRLZENNF1tyrS5IGHDELrH3V81HNrDz2zA7OKOuw47R9WuIAktbV36FwlE9fFZ/fxYgQVnaAzUU/WK0MZg=</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</NFe>
